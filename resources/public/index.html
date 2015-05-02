@@ -28,7 +28,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>    
 <script>    
 $(function (){
-  $.getJSON('http://192.168.1.2:8080/colors', function (data) {
+  $.getJSON('/colors', function (data) {
     $.each(data, function (key, val) {
       $("ul").append(
 "<li class='extracted-color col-md-1 col-lg-2' style='background-color:rgb("+ val["color"] +"')>teste</li>");
