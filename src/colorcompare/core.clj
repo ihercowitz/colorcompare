@@ -55,4 +55,4 @@
                   wrap-params
                   wrap-keyword-params
                   wrap-json-params
-                  wrap-json-response) {:port 8080}))
+                  wrap-json-response) {:port (Integer. (or (System/getenv "PORT") "8080"))}))
