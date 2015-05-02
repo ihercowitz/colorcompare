@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">    
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css" media="screen" />
+</head>
+<body>
+<div class="wrap">
+   <div class="container">
+       <h1>Resultado</h1> 
+       <p>Seguem abaixo  suas cores organizadas:</p>
+   </div>
+   
+   <ul class="extracted-color-group list-inline container">
+      <!-- aqui é o loop -->
+       <li class="extracted-color col-md-1 col-lg-2" style="background-color:#ff00ff">
+           <span class="extracted-color-name">#ff00ff</span>
+       </li>
+       <!-- /aqui é o fim do loop -->
+   </ul>
+</div>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">    
+    
+</body>
+</html>
